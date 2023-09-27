@@ -38,3 +38,7 @@ h1, h4, p, a {
   color: white;
   transition: 0.3s;
 }
+
+li {
+  list-style-type: none;
+}
