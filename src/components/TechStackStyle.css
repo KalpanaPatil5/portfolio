@@ -1,0 +1,40 @@
+.technology-stack {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    color: #ffffff;
+}
+
+.skill-card {
+    line-height: 2.5rem;
+}
+
+.skill-card ul {
+    list-style-type: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .technology-stack {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill-card {
+        font-size: 1rem;
+    }
+
+    .list-item {
+        justify-content: center;
+    }
+}
